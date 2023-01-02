@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Manrope-ExtraLight.eot');
+    src: url('../font/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/Roboto-Black.woff2') format('woff2'),
+        url('../font/Roboto-Black.woff') format('woff'),
+        url('../font/Roboto-Black.ttf') format('truetype'),
+        url('../font/Roboto-Black.svg#Roboto-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

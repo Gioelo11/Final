@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('../font/Manrope-ExtraLight.eot');
+    src: url('../font/Manrope-ExtraLight.eot') format('embedded-opentype'),
+        url('Manrope-ExtraLight.woff2') format('woff2'),
+        url('Manrope-ExtraLight.woff') format('woff'),
+        url('Manrope-ExtraLight.ttf') format('truetype'),
+        url('Manrope-ExtraLight.svg#Manrope-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+

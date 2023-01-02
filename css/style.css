@@ -1,17 +1,61 @@
+/* კონტეინერი */
 .container{
     max-width: 1440px;
     width: 100%;
+    border: 3px solid green;
+    padding-top: 51px;
+    position:absolute;
+}
+
+/* ჰედერი */
+header{
+ width: 100%;  
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px;
+ background-color: #f6f8f9;
+ border: 2px solid yellow;
+ position: fixed;
+ top: 0px;
+ z-index: 1;
+}
+
+.logo{
+    font-size: 13px;
+    font-weight: bolder;
+    color: #fa6980;
+    transition-duration: 1s;
+    /* როგორ აციმციმდეს ან დატრიალდეს ცალკე ლოგოს ასოები? */
+    
+}
+.logo:hover{
+    font-size: 20px;
+    text-shadow: 5px 5px 5px red;
+}
+    
+
+.lii{
+    display: flex;
+    font-size: 11px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    gap: 30px;
+}
+
+a{
+    color: #343638;
+/* li-ს კლასის "color"-ის გასტილვით, არ ანიჭებს ფერს და ამიტომ a ტეგი გავსტილე */
+}
+.color:hover{
+    border-bottom: 2px solid #fa6980;
+}
+.home{
+    color: black;
+}
+
+p{
+    font-family: 'Roboto';
 }
 
 
-
-
-
-
-
-/* body{
-    width: 400px;
-    height: 400px;
-    background-image: url(/Photos/Image1.jpeg);
-
-} */
