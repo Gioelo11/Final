@@ -1,51 +1,73 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
 /* კონტეინერი */
 .container{
     max-width: 1440px;
     width: 100%;
-    border: 3px solid green;
-    padding-top: 51px;
-    position:absolute;
+    margin: 0 auto;
+    /* border: 3px solid green; */
+    background-color: #f6f8f9;
+    position: relative;
+    top: 53px;
 }
 
 /* ჰედერი */
 header{
- width: 100%;  
+ max-width: inherit;   
+ width: inherit;
+ height: 53px;  
+ display: -webkit-box;  
+ display: -ms-flexbox;  
  display: flex;
- justify-content: space-between;
- align-items: center;
+ -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+         justify-content: space-between;
+ -webkit-box-align: center;
+     -ms-flex-align: center;
+         align-items: center;
  padding: 20px;
  background-color: #f6f8f9;
- border: 2px solid yellow;
  position: fixed;
  top: 0px;
- z-index: 1;
 }
 
-.logo{
+span{
     font-size: 13px;
     font-weight: bolder;
-    color: #fa6980;
-    transition-duration: 1s;
-    /* როგორ აციმციმდეს ან დატრიალდეს ცალკე ლოგოს ასოები? */
-    
+    color: #fa6980; 
+    -webkit-transition-duration: 1s; 
+         -o-transition-duration: 1s; 
+            transition-duration: 1s;  
 }
-.logo:hover{
-    font-size: 20px;
-    text-shadow: 5px 5px 5px red;
+
+
+span:hover{
+    font-size: 30px;
+    text-shadow: 7px 7px 7px green;
 }
     
 
 .lii{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 11px;
     font-family: 'Manrope';
     font-weight: bold;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 30px;
 }
 
 a{
     color: #343638;
-/* li-ს კლასის "color"-ის გასტილვით, არ ანიჭებს ფერს და ამიტომ a ტეგი გავსტილე */
 }
 .color:hover{
     border-bottom: 2px solid #fa6980;
@@ -57,5 +79,331 @@ a{
 p{
     font-family: 'Roboto';
 }
+.color1{
+    display: none;
+}
+/* სექცია 1 */
 
+.section1{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.img{
+   width: 58%;
+   /* border: 2px solid blue; */
+   background-image: url(../Photos/Image.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+}
+.img1{
+    width: 72%;
+    color: #FFFFFF;
+    font-family: helvetica;
+    /* border: 2px solid black; */
+}
+.world{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    padding-bottom: 38px;
+}
+.border{
+    width:502px;
+    border-bottom:2px solid #FFFFFF;
+}
+.amazing{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 38px;
+}
+.for{
+    font-size: 16px;
+    padding: 0 40px 30px 0;
+}
+.learn{
+    font-size: 11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #FA6980;
+    border-radius: 5px;
+    border: none; 
+    padding: 13px 10px 16px 10px;
+    -webkit-transition-property: width height;
+    -o-transition-property: width height;
+    transition-property: width height;
+    -webkit-transition-duration: 2s;
+         -o-transition-duration: 2s;
+            transition-duration: 2s;
+}
+.learn:hover{
+    background-color:  green;
+    -webkit-box-shadow: 5px 5px greenyellow;
+            box-shadow: 5px 5px greenyellow;
+}
+.text{
+    width: 42%;
+    /* border: 2px solid blue; */
+    padding: 100px 120px 100px 100px;
+    background-color: #FFFFFF;
+}
+.more{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "helvetica";
+    color: #202124;
+    margin-bottom: 39px;
+}
+.border2{
+    border-bottom: 2px solid #EBEDED;
+}
+.travel{
+ color: #FA6980;
+ font-size: 14px;
+ font-weight: bold;
+ font-family: "helvetica";
+ padding: 39px 0 20px 0;
+}
+.article{
+    color: #202124;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "helvetica"; 
+    padding-bottom: 10px;
+}
+.lorem{
+    color:#A6ADB4;
+    font-size: 16px;
+    font-family: "acumin pro";
+    line-height: 26px;
+}
+.min{
+font-family: "helvetica";
+font-size: 13px;
+line-height: 26px;
+color: #a6adb4;
+}
 
+/* section 2 */
+
+.section2{
+    width: 80%;
+    margin: 40px auto 0 auto;
+    /* border: 2px solid green; */
+}
+.trending{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "helvetica";
+    color: #202124;
+    margin: 0px 0 40px 0;
+    /* border: 2px solid red; */
+}
+.cards{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    /* border: 2px solid yellow; */
+}
+.card{
+    width: 31%;
+    background-color:  #FFFFFF;
+    /* border-radius: 5px; */
+}
+.cardd{
+    width: 31%;
+    background-color:  #FFFFFF;
+}
+.imagestil{
+    width: 100%;
+    overflow: hidden;
+}
+.image1{
+    width: 100%;
+    border-radius: 5px;
+    -webkit-transition-property: width height;
+    -o-transition-property: width height;
+    transition-property: width height;
+    -webkit-transition-duration: 5s;
+         -o-transition-duration: 5s;
+            transition-duration: 5s;
+}
+.image1:hover{
+    
+    -webkit-transform: scale(2);
+    
+        -ms-transform: scale(2);
+    
+            transform: scale(2);
+}
+.article1{
+    padding: 50px 38px 66px 38px;
+}
+.morbi{
+    color: #202124;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "helvetica"; 
+    padding-bottom: 10px;
+}
+
+.ipsum{
+    width: 80%;
+    font-size: 13px;
+    font-family: "acumin pro";
+}
+
+/* section 3 */
+
+.section_3{
+    width: 80%;
+    margin: 40px auto 100px auto;
+    /* border: 2px solid red; */
+}
+.happeing{
+font-family: "helvetica";
+font-size: 24px;
+font-weight: bold;
+line-height: 20px;
+font-style: normal;
+color: #202124;
+}
+.container1{
+    width: 100%;
+    /* border: 3px solid green; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.photo_3{
+    width: 65.5%;
+}
+.img_2{
+    height: 430px;
+    background-image: url(../Photos/Image\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 40px 0 40px 0;
+}
+.img_3{
+    height: 430px;
+    background-image: url(../Photos/Image\ \(3\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.city{
+    width: 90%;
+    gap: 232px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 40px;
+    margin: 0 auto;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    color: #ffffff;
+}
+.large{
+width: 90%;
+margin: 0 auto;
+margin-top: 230px;
+font-family: "helvetica";
+font-size: 24px;
+font-weight: bold;
+line-height: 26px;
+color: #ffffff;
+}
+.dolor{
+width: 90%;
+margin: 0 auto;
+font-family: "helvetica";
+font-size: 16px;
+color: #ffffff;
+}
+.cards1{
+    width: 31%;
+}
+.card1{
+    gap: 40px;
+
+}
+.card11{
+    gap: 40px;
+}
+.photo4{
+    width: 100%;
+    margin-top: 40px;
+}
+.small{
+    margin-top: 40px;
+}
+
+/* footer */
+footer{
+width: 100%;
+height: 200px;
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 57px;
+background-color: #A6ADB4;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+}
+.footer_div{
+    font-family: "helvetica";
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+    font-style: normal;
+    color: #cbd0d3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 40px;
+}
+.logo1{
+    width: 40px;
+    height: 11px;
+}
+.icons_div{
+    color: #FFFFFF;
+    }
+    .fa-instagram{
+     color: #FFFFFF;
+    }
+.fa-twitter{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+.fa-facebook{
+    color: #FFFFFF;
+}
+.fa-earth-americas{
+    margin-left: 10px;
+    color: #FFFFFF;
+}

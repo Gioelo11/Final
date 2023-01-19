@@ -1,0 +1,68 @@
+@media (max-width: 768px){
+    /* section 1 */
+    .section1{
+        display: block;
+    }
+    .img{
+        width: 100%;
+        height: 400px;
+    }  
+    .text{
+        width: 100%;
+    }
+    
+    .more{
+        width: 100%;
+    }
+    
+    .saerto{
+        width: 100%;
+        display: flex;
+        margin-bottom: 40px;
+    }
+
+/* section2 */
+.section2{
+    margin-top: 40px;
+}
+.cards{
+    width: 100%;
+
+}
+.card{
+    width: 47%;
+}
+.cardd{
+    display: none;
+}
+
+
+/* section3 */
+
+.container1{
+    width: 100%;
+    display: block;
+}
+.photo_3{
+    width: 100%;
+}
+.cards1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    width: 47%;
+}
+.card11{
+    display: none;
+}
+/* footer */
+footer{
+    display: inline-block;
+}
+.icons_div{
+    display: flex;
+    justify-content:right;
+}
+}

@@ -1,0 +1,57 @@
+@media (max-width: 400px){
+    /* header */
+    
+    .lii{
+        display: none;
+    }
+      .color1{
+        display: contents;
+      }
+    /* section1 */
+    .saerto{
+        display: block;
+    }
+    .text{
+        display: block;
+    }
+
+    /* section2 */
+
+    .section2{
+        width: 100%;
+    }
+    .trending{
+        padding-left: 10%;
+    }
+    .cards{
+        display: block;
+}
+.card{
+    width: 87%;
+margin: 0 auto;
+}
+        /* section3 */
+  .cards1{
+    width: 100%;
+    display: block;
+  }
+    .card1{
+        width: 100%;
+    }
+
+    .card11{
+        display:contents;
+        width: 100%;
+    }
+
+/* foter;*/
+
+.footer_div{
+    display: none;
+}
+.icons_div{
+justify-content: center;
+
+}
+}
+
