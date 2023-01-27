@@ -1,0 +1,308 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+/* კონტეინერი */
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f6f8f9;
+    position: relative;
+    top: 53px;
+}
+
+/* ჰედერი */
+header{
+ max-width: inherit;   
+ width: inherit;
+ height: 53px;  
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px;
+ background-color: #f6f8f9;
+ position: fixed;
+ top: 0px;
+ left: 50%;
+ transform: translateX(-50%);
+}
+.logo{
+    width: 120px;
+    height: 20px;
+    font-family: 'Roboto';
+}
+span{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fa6980; 
+    letter-spacing: 5px;
+    transition-duration: 1s;
+}
+
+
+span:hover{
+    font-size: 30px;
+    text-shadow: 7px 7px 7px green;
+}
+
+   span:nth-child(1){
+    animation: anime1 1.5s linear infinite;
+   } 
+   @keyframes anime1 {
+    100% {
+        color: rgb(66, 210, 30);
+    }
+   }
+
+   span:nth-child(2){
+    animation: anime2 2s linear infinite;
+   } 
+   @keyframes anime2 {
+    100% {
+        color: rgb(99, 30, 210);
+    }
+   }
+
+   span:nth-child(3){
+    animation: anime3 2.5s linear infinite;
+   } 
+   @keyframes anime3 {
+    100% {
+        color: rgba(96, 97, 60, 0.315);
+    }
+   }
+
+   span:nth-child(4){
+    animation: anime4 3s linear infinite;
+   } 
+   @keyframes anime4 {
+    100% {
+        color: gold;
+    }
+   }
+
+
+
+.lii{
+    display: flex;
+    font-size: 11px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    align-items: center;
+    gap: 30px;
+    
+}
+.burger{
+    display: none;
+}
+.xmark{
+    display: none;
+}
+a{
+    color: #343638;
+}
+.color:hover{
+    border-bottom: 2px solid #fa6980;
+}
+.home{
+    color: black;
+}
+
+
+/* სექცია 1 */
+
+.section_1{
+    width: 80%;
+    height: 31%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 36px;
+
+}
+.img{
+   width: 50%;
+   /* border: 2px solid blue; */
+   background-image: url(../Photos/photo2/Image\ \(5\).png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* position: inherit; */
+}
+
+.world{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    padding-bottom: 38px;
+    color: #ffffff;
+}
+.form{
+    width: 50%;
+    background-color:#FFFFFF;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.name{
+width: 62%; 
+font-family: "acumin pro";
+font-size: 13px;
+font-weight: bold;
+line-height: 20px;
+font-style: normal;
+color: #202124;
+
+}
+.transparent{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    border-color:#EBEDED;
+}
+.confirm{
+width: 134px;
+height: 40px;
+border-color: rgba(0,0,0,0.05 );
+border-width: 2px;
+border-style: solid;
+border-radius: 6px;
+background: #fa6980;
+color: #FFFFFF;
+
+}
+/* section 2 */
+
+.section_2{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+.border{
+    border-bottom:2px solid #EBEDED;
+}
+
+.sum{
+    display: flex;
+    padding: 42px 0 42px 0;
+}
+.wan{
+width: 34%;
+font-family: "acumin pro";
+font-size: 24px;
+font-weight: bold;
+line-height: 34px;
+font-style: normal;
+color: #202124;
+/* border: 2px solid red; */
+}
+.text{
+    display: flex;
+    width: 66%;
+    justify-content: right;
+    gap: 30%;
+font-family: "helvetica";
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+font-style: normal;
+color: #a6adb4;
+
+}
+.phasellus{
+font-family: "acumin pro";
+font-size: 24px;
+font-weight: bold;
+line-height: 34px;
+font-style: normal;
+color: #202124;
+}
+
+.dignissim{
+width: 31%;
+font-family: "helvetica";
+font-size: 14px;
+font-weight: 400px;
+line-height: 26px;
+font-style: normal;
+color: #a6adb4;
+}
+
+/* section 3 */
+
+.section_3{
+    width: 80%;
+    margin: 40px auto 100px auto;
+    /* border: 2px solid red; */
+}
+
+.photo_3{
+    width: 100%;
+    padding-bottom: 40px;
+    
+}
+.lorem{
+font-family: "helvetica";
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+font-style: normal;
+color: #a6adb4;
+padding-bottom: 40px;
+}
+
+/* footer */
+footer{
+width: 100%;
+height: 200px;
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 57px;
+background-color: #A6ADB4;
+display: flex;
+justify-content: space-between;
+}
+.footer_div{
+    font-family: "helvetica";
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+    font-style: normal;
+    color: #cbd0d3;
+    display: flex;
+    gap: 40px;
+}
+.logo1{
+    width: 40px;
+    height: 11px;
+}
+.icons_div{
+    color: #FFFFFF;
+    }
+    .fa-instagram{
+     color: #FFFFFF;
+    }
+.fa-twitter{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+.fa-facebook{
+    color: #FFFFFF;
+}
+.fa-earth-americas{
+    margin-left: 10px;
+    color: #FFFFFF;
+}
